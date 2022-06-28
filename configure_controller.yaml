@@ -103,7 +103,7 @@
         inventory: Controller Hosts
         credentials:
           - Execution Build Credentials
-          - base_vault
+#          - base_vault
         project: EE build project
         playbook: ee_builder_survey.yaml
         verbosity: 1
