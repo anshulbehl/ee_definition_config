@@ -12,7 +12,7 @@
     controller_projects:
       - name: EE build project
         scm_type: git
-        scm_url: https://github.com/sean-m-sullivan/ee_definition_config.git
+        scm_url: https://github.com/anshulbehl/ee_definition_config.git
         scm_branch: main
         scm_update_on_launch: true
         description: EE build project
