@@ -1,0 +1,7 @@
+---
+hosts: localhost
+tasks:
+  - ansible.builtin.dnf:
+      name: wget
+      state: present
+    
