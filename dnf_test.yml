@@ -1,7 +1,9 @@
 ---
 - hosts: localhost
   tasks:
+    - shell: microdnf install -y python3-dnf
     - ansible.builtin.dnf:
         name: wget
         state: present
     
+
